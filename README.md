@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./logo.png" alt="toggle_shell.sh logo" width="260" />
+<img src="./logo.png" alt="toggle_shell.sh logo" width="125" />
 
 # Terminal Pinner (toggle_shell.sh)
 </div>
