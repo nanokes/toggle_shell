@@ -6,6 +6,7 @@ A pinned terminal for Linux tested on Linux Mint (Cinnamon). Press a single keyb
 
 - `Ctrl+Alt+T` opens the terminal if it's not running, or focuses the existing one if it is, instead of always spawning a new window.
 - The terminal launches at a fixed, calibrated position and size (bottom-right corner by default).
+- Guards against double-launches: if the keybinding fires twice in quick succession (e.g. a stuck or double-pressed key), a lock file (`/tmp/toggle_shell.sh.lock`) makes the second invocation exit immediately instead of racing the first one and potentially spawning a duplicate window. (flock is such a cool cmd :astonished:)
 
 ## Requirements
 

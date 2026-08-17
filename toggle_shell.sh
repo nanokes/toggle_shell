@@ -1,4 +1,7 @@
 #!/bin/bash
+exec 200>/tmp/toggle_shell.sh.lock
+flock -n 200 || exit 0
+
 WIN_CLASS="pinned-terminal"
 POS_X=3544
 POS_Y=2074
