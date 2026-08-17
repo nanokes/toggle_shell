@@ -1,4 +1,9 @@
+<div align="center">
+<img src="./logo.png" alt="toggle_shell.sh logo" width="260" />
+
 # Terminal Pinner (toggle_shell.sh)
+</div>
+
 
 A pinned terminal for Linux tested on Linux Mint (Cinnamon). Press a single keybinding and get the same terminal window every time, docked in a fixed spot on screen, instead of a new window spawning each time.
 
